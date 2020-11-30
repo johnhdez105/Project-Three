@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+html {
+  font-family: sans-serif;
+  font-weight: normal;
+  background: #222;
+  color: #EEE;
+  padding: 1em;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.3125em;
+  max-width: 35em;
+  margin: auto;
+}
+h1 {
+  font-size: 2em;
+  line-height: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
+figcaption {
+  padding: 0.5em;
+  font-style: italic;
+  font-size: 0.875em;
+}
+h2 {
+  font-size: 2.9375em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+h3 {
+  font-size: 1.8125em;
+  margin-top: 1.3125em;
+  margin-bottom: 0.5em;
+}
+h4 {
+  font-size: 1em;
+  margin-top: 1.3125em;
+  margin-bottom: 0.0625em;
+}
+li {
+  padding: 0.375em;
+}
+footer {
+  padding-top: 1.5em;
+}
+.nav li {
+  padding-bottom: 0.5em;
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  border: 0.250em;
+  width: 10.25em;
+  background: #808080;
+  color: #FFFFFF;
+  padding: 0.75em;
+  border-radius: 0.750em;
+}
+.nav a:hover {
+  background: #A9A9A9;
+}
+.res {
+display: flex;
+flex-wrap: wrap;
+list-style-type: none;
+}
+.res a {
+  border: 0.250em solid #FFFFFF;
+  flex: 12em;
+  width: 10.5em;
+  color: #FFFFFF;
+  padding: 1em;
+  border-radius: 0.750em;
+}
+@media screen and (mid-width 26.25em) {
+  figure.portrait{
+    width: 50%;
+  }
+}
+@media screen and (mid-width: 23.06em) {
+  figure.landscape{
+    width: 50%;
+  }
+}
+@media screen and (min-width: 20.625em) {
+  h1 {
+    font-size: 4em;
+  }
+}
+/* Responsive Images */
+img {
+  display: block;
+  max-width: 100%;
+  padding-top: 0.375em;
+}
