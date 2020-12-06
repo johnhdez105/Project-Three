@@ -130,6 +130,20 @@ list-style-type: none;
     background: #A9A9A9;
   }
 }
+@media screen and (min-width: 42.563em) {
+  .kobe_pic {
+    float: left;
+    padding: 1em;
+  }
+  .kanye_pic {
+    float: right;
+    padding: 1em;
+    width: 32em;
+    height: 28em;
+    width: 100%
+    height: auto;
+  }
+}
 /* Responsive Images */
 img {
   display: block;
